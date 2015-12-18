@@ -1,0 +1,36 @@
+{
+  "name": "pipeline-wrapper",
+  "version": "1.0.0",
+  "description": "Combines multiple streams in a pipeline into a single stream.",
+  "main": "lib/pipeline.js",
+  "scripts": {
+    "prepublish": "coffee -c -o lib src && npm run test",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benbria/node-pipeline-wrapper.git"
+  },
+  "keywords": [
+    "gulp",
+    "stream",
+    "streams",
+    "pipe",
+    "wrap",
+    "wrapper"
+  ],
+  "author": "Jason Walton <dev@lucid.thedreaming.org> (https://github.com/jwalton)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benbria/node-pipeline-wrapper/issues"
+  },
+  "homepage": "https://github.com/benbria/node-pipeline-wrapper#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "coffee-coverage": "^0.7.0",
+    "coffee-script": "^1.10.0",
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4"
+  }
+}
