@@ -5,7 +5,7 @@
   "main": "lib/pipeline.js",
   "scripts": {
     "prepublish": "coffee -c -o lib src && npm run test",
-    "test": "mocha"
+    "test": "mocha && istanbul report text-summary lcov"
   },
   "repository": {
     "type": "git",
