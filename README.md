@@ -1,5 +1,8 @@
 Combines multiple streams in a pipeline into a single stream.
 
+[![Build Status](https://travis-ci.org/benbria/node-pipeline-wrapper.svg?branch=master)](https://travis-ci.org/benbria/node-pipeline-wrapper)
+[![Coverage Status](https://coveralls.io/repos/benbria/node-pipeline-wrapper/badge.svg?branch=master&service=github)](https://coveralls.io/github/benbria/node-pipeline-wrapper?branch=master)
+
 Install with:
 
     npm install --save pipeline-wrapper
